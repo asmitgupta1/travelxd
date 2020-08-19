@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <title>Asmit Gupta(18bce0904)</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="../html/index.html"><img src="images/logo.jpeg" alt="Trulli"  width="70" height="43"></a>
+        <a href="../html/index.html">TRAVELXD</a>
+      
+        <div class="topnav-right">
+          <a href="../html/index.html">Home</a>
+          <a href="../html/blog.html">Blog</a>
+          <a href="../html/contact.html">Contact</a>
+      
+        </div>
+        
+      </div>          
+    <form action="/form" name="contactform" style="line-height: 20px;" class="container" method ="POST" onsubmit="return validation()">
+        <h1>Contact Details</h1>
+
+        <p><label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name: "></p>
+
+        <p><label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email: "></p>
+
+        
+        <p><label for="phone number">Phone number:</label>
+            <input type="text" id="phone number" name="phonenumber" placeholder="Enter your phone number "></p>
+        
+        
+
+
+            <label for="comments">Comments</label><br>
+            <textarea name="subject" id="subject" cols="30" rows="5">Add Comments here... </textarea>
+        </p>
+
+        <div>
+            <input type="checkbox" required />
+            <label><i>I agree to the terms and conditions</i></label>
+          </div><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+  <script src="../js/contact.js"></script>
+</body>
+</html>
